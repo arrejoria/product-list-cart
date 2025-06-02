@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="shop">
+    <div class="page_title" id="catTitle"></div>
+    <div class="products" id="catProducts">
+      <div class="product_item">
+        <div class="product_image">
+          <picture>
+            <source srcset="./assets/images/image-baklava-mobile.jpg" media="(min-width: 320px)" />
+            <source srcset="./assets/images/image-baklava-tablet.jpg" media="(min-width: 768px)">
+            <img src="./assets/images/image-baklava-desktop.jpg" alt="">
+          </picture>
+          <div class="product_btn" id="prodBtn">
+            <div id="cartBtn">
+              <button id="addToCart">
+                <img src="./assets/images/icon-add-to-cart.svg" alt="add to cart icon" aria-hidden="true" />
+                Add To Cart
+              </button>
+              <div id="modProdBtn">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product_summary">
+          <div class="product_cat">Category test</div>
+          <div class="product_title">Testing Name</div>
+          <div class="product_price">$23.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

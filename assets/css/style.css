@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Reset global básico */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:focus {
+  outline: 2px dashed var(--color-red);
+  outline-offset: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */

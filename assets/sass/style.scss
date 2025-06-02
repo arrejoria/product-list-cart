@@ -1,0 +1,34 @@
+// ===================================================
+// Pre-entrega - SCSS Styles
+// ===================================================
+
+@use "variables" as *;
+
+
+/* Reset global básico */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: calc(10 / 16 * 100);
+}
+
+body {
+    overflow-x: hidden;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+:focus {
+    outline: 2px dashed var(--color-red);
+    outline-offset: 4px;
+}
+

@@ -1,0 +1,46 @@
+// ===================================================
+// Pre-entrega - SCSS Variables
+// ===================================================
+
+// -----------------------------
+// Layout breakpoints
+// -----------------------------
+
+$breakpoint-mobile: 375px;
+$breakpoint-desktop: 1440px;
+
+// ⚠️ Recomendación: usar min/max para trabajar con todo el rango entre 320px y pantallas grandes.
+
+
+// -----------------------------
+// Colors
+// -----------------------------
+
+// Primary Colors
+$red: hsl(14, 86%, 42%);
+$green: hsl(159, 69%, 38%);
+
+// Rose Palette
+$rose-50: hsl(20, 50%, 98%);
+$rose-100: hsl(13, 31%, 94%);
+$rose-300: hsl(14, 25%, 72%);
+$rose-400: hsl(7, 20%, 60%);
+$rose-500: hsl(12, 20%, 44%);
+$rose-900: hsl(14, 65%, 9%);
+
+
+// -----------------------------
+// Typography
+// -----------------------------
+
+// Font family
+$font-family-base: 'Red Hat Text', sans-serif;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Font sizes
+$font-size-body: 16px; // Para nombres de productos
+
