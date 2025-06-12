@@ -1,0 +1,15 @@
+
+@import "variables";
+
+// Components Styles
+// ===================================================
+.addtocart_btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: $rose-100;
+    border-radius: 30px;
+    border: 2px solid $rose-300;
+}

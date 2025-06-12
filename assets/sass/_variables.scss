@@ -2,14 +2,21 @@
 // Pre-entrega - SCSS Variables
 // ===================================================
 
+
+// Importar fuente local
+@font-face {
+  font-family: 'Red Hat Text';
+  src: url('../fonts/RedHatText-Italic.ttf') format('ttf'),
+       url('../fonts/RedHatText-VariableFont_wght.ttf') format('ttf');
+}
+
+
 // -----------------------------
 // Layout breakpoints
 // -----------------------------
 
 $breakpoint-mobile: 375px;
 $breakpoint-desktop: 1440px;
-
-// ⚠️ Recomendación: usar min/max para trabajar con todo el rango entre 320px y pantallas grandes.
 
 
 // -----------------------------
@@ -44,3 +51,4 @@ $font-weight-bold: 700;
 // Font sizes
 $font-size-body: 16px; // Para nombres de productos
 
+ 
